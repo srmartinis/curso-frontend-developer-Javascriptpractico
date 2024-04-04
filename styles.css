@@ -129,6 +129,7 @@ nav {
     position: absolute;
     top: 60px;
     padding: 24px;
+    background-color: var(--hospital-green);
   }
   .mobile-menu a {
     text-decoration: none;
@@ -199,12 +200,18 @@ nav {
     text-align: end;
     font-weight: bold;
   }
+  .my-order-content {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 5px;
+  }
   .shopping-cart {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     gap: 16px;
     margin-bottom: 24px;
     align-items: center;
+
   }
   .shopping-cart figure {
     margin: 0;
