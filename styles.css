@@ -262,6 +262,7 @@ nav {
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    cursor: pointer;
   }
   .product-card .product-info {
     display: flex;
@@ -296,8 +297,8 @@ nav {
     width: 14px;
     height: 14px;
     position: absolute;
-    top: 24px;
-    left: 24px;
+    top: 38px;
+    left: 38px;
     z-index: 2;
     padding: 12px;
     border-radius: 50%;
